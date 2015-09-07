@@ -29,23 +29,28 @@
 <div class="row">
   <div class="col-md-12">
     <div class="panel panel-primary">
-      <div class="panel-heading">Bienvenido es hora de mostrarle al mundo quien eres. Para empezar elige tu perfil.</FONT></div>
+      <div class="panel-heading">¡Empezemos con pie derecho!.</FONT></div>
+                  <div class="jumbotron" align="center">
+                    <h3>¿Eres mayor de edad?</h3>
+                    <p>Ya que estamos hablando de la oportunidad de que te vuelvas alguien sumamente reconocido ademas de alguien con mucho dinero, por lo cual, si eres menor de edad, debe ser la persona que este a tu cargo (mayor de edad (+18)) quien junto a ti cree y administre tu perfil y se encargue de la parte legal (contactos, negociaciones, cierres, entre otros) y tu te encargas de lo tuyo ¡Jugar!</p>
+            </div>
+
       <div class="panel-body" align="center"> 
 <hr>
-<div style="float:left;width:33%">
-<a href="#">
+<div style="float:left;width:50%">
+<a href="../../Views/Vistas/CreacionPefilJugador1_1.php">
 <img  class="img-responsive" data-alt-src="../../Imagenes/img2.jpg" 
 src="../../Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
 </a>
 </div>
-<div style="float:left;width:33%">
+<div style="float:left;width:50%">
 <a href="../../Views/Vistas/CreacionPefilJugador.php">
 <img  class="img-responsive" data-alt-src="../../Imagenes/img2.jpg" 
 src="../../Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
 </a>
 </div>
 <div style="clear:both;margin-bottom:20px;"></div>
-<hr>
+
 
 </div>
 </div>
