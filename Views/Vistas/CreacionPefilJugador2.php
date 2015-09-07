@@ -41,7 +41,7 @@
                 </div>
 
             <div class="jumbotron">
-                    <h3>Perfecto, ya llevas la mitad, si que vas rapido!</h3>
+                    <h3>Perfecto ya casi vamos a la mitad!</h3>
                     <p>Para tus futuros managers o tecnicos es muy importante saber tus conocimientos, que sabes hacer y si dominas algún otro idioma, por eso te haremos algunas preguntas relacionadas con estos temas</p>
             </div>
             

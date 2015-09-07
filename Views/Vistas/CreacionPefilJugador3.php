@@ -41,13 +41,13 @@
                 </div>
 
             <div class="jumbotron">
-                    <h3>Perfecto, ya llevas la mitad, si que vas rapido!</h3>
+                    <h3>¡Si que vas rapido!</h3>
                     <p>Las personas necesitan saber que experiencia tienes y con que equipos has estado vinculado a lo largo de tu carrera profesional</p>
             </div>
             
     <div class="panel-body" > 
 
-    <form action="" metod="POST" class="form-horizonal">
+    <form action="CreacionPefilJugador4.php" metod="POST" class="form-horizonal">
                         <div class="form-group">
                             <label for="Nickname">Nombre y/o apodo profesional</label>
                             <input type="text" name="Nickname" class="form-control" placeholder='"La Maravilla" "La Pulga"' required>

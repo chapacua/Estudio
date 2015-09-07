@@ -49,11 +49,11 @@
     <form role="form" name="f1"  method="POST" action="CreacionPefilJugador2.php">
                         <div class="form-group">
                                 <label for="">Nombre(s)</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" name="Nombre" placeholder="Tu nombre" required="required">
                         </div>
                          <div class="form-group">
                                 <label for="">Apellido(s)</label>
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" name="Apellido" placeholder="Tu apellido" required="required">
                         </div>
                         <div class="form-group">
                             <div class="col-xs-12 col-md-4">

@@ -41,12 +41,12 @@
                 </div>
 
             <div class="jumbotron">
-                    <h3>Ya casi acabamos!</h3>
+                    <h3>Ya va más de la mitad!</h3>
                     <p>Solo unos datos mas y terminamos</p>
             </div>
 
         <div class="panel-body"> 
-                <form action="" metod="POST" class="form-horizonal">
+                <form action="CreacionPefilJugador4.php" metod="POST" class="form-horizonal">
                     <div class="form-group">
                         <label for="Marital_status" class="">Estado Civil</label>
                         <select name="Marital_status" id="Marital_status" class="form-control">
