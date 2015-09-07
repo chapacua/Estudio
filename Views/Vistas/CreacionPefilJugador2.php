@@ -51,7 +51,7 @@
     <form action="CreacionPefilJugador3.php" metod="POST" class="form-horizonal">
                         <div class="form-group">
                             <label class="control-label" for="EducationLevel">Nivel Educativo</label>
-                            <select class="form-control" name="EducationLevel" id="EducationLevel" required>
+                            <select name="EducationLevel" id="EducationLevel" class="form-control"  required="required">
                                 <option value="">Seleccione</option>
                                 <option value="Ninguno">Ninguno</option>
                                 <option value="Primaria">Primaria</option>
@@ -68,7 +68,7 @@
                         <div class="form-group">
                             <label class="control-label" for="Language">Idiomas</label>
                              <p class="text-muted">Selecciona aqui tu idioma nativo, si manejas otro, has click en la opción "Agregar otro".</p>
-                            <select class="form-control" name="Language1" id="Language" placeholder="Idioma principal" required>
+                            <select name="Language" id="Language" class="form-control" placeholder="Idioma principal" required="required">
                                 <option value="">Seleccione</option>
                                 <option value="ingles ">English</option>
                                 <option value="Español">Español</option>
@@ -104,7 +104,7 @@ var nextinput = 0;
 function AgregarCampos(){
 nextinput++;
 
-campo = '<id="rut'+nextinput+'"><select class="form-control" id="Language' + nextinput +'" name="Language' + nextinput + '"  required >&nbsp; <option value="">Seleccione idioma</option><option value="ingles ">English</option><option value="Español">Español</option><option value="portugues">Português</option><option value="Italiano">Italiano</option><option value="frances">Français</option><option value="aleman">Deutsch</option><option value="Ruso">Pусский</option><option value="holandes">Nederlandse</option><option value="griego">Ελλάδα</option><option value="chino">中国</option><option value="árabe">عربي</option><option value="otro">otro</option></select><br>';
+campo = '<id="Language'+nextinput+'"><select class="form-control" id="Language' + nextinput +'" name="Language' + nextinput + '"  required >&nbsp; <option value="">Seleccione idioma</option><option value="ingles ">English</option><option value="Español">Español</option><option value="portugues">Português</option><option value="Italiano">Italiano</option><option value="frances">Français</option><option value="aleman">Deutsch</option><option value="Ruso">Pусский</option><option value="holandes">Nederlandse</option><option value="griego">Ελλάδα</option><option value="chino">中国</option><option value="árabe">عربي</option><option value="otro">otro</option></select><br>';
 $("#campos").append(campo);
 }
 </script>   

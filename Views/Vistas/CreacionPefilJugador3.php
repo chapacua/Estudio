@@ -51,11 +51,11 @@
     <form action="CreacionPefilJugador4.php" metod="POST" class="form-horizonal">
                         <div class="form-group">
                             <label for="Nickname">Nombre y/o apodo profesional</label>
-                            <input type="text" name="Nickname" class="form-control" placeholder='"La Maravilla" "La Pulga"' required>
+                            <input type="text" name="Nickname" id="Nickname" class="form-control" placeholder='"La Maravilla" "La Pulga"' required="required">
                         </div>
                         <div class="form-group">
                             <label class="control-label" for="TimePlayed">Tiempo de experiencia</label>
-                            <select class="form-control" name="TimePlayed" id="TimePlayed" required>
+                            <select name="TimePlayed" id="TimePlayed" class="form-control" required>
                                 <option value="">Seleccione</option>
                                 <option value="Ninguno">Nunca he jugado, pero se que puedo ser el mejor</option>
                                 <option value="6_meses">Menos de 6 meses</option>
@@ -68,8 +68,8 @@
                             </select>
                         </div>
                         <div class="form-group">
-                        <label for="Marital_status" class="">Estado Civil</label>
-                        <select name="Marital_status" id="Marital_status" class="form-control">
+                        <label for="MaritalStatus" class="">Estado Civil</label>
+                        <select name="MaritalStatus" id="MaritalStatus" class="form-control">
                             <option value="">Seleccione</option>
                             <option value="Single">Soltero</option>
                             <option value="Married">Casado</option>
@@ -77,12 +77,14 @@
                             <option value="Divorced">Divorciado</option>
                             <option value="Widower">Viudo</option>
                             <option value="Separate">Separado</option>
+                            <option value="Relationship">En una relacion</option>
+                            <option value="Other">Otro</option>
                         </select>
                     </div>
 
                     <div class="form-group">
-                        <label for="current_occupation" class="">Ocupacion actual</label>
-                        <input type="text" id="current_occupation" class="form-control" placeholder="Ingrese su ocupación actual" required="required">
+                        <label for="CurrentOccupation" class="">Ocupacion actual</label>
+                        <input type="text" name="CurrentOccupation" id="CurrentOccupation" class="form-control" placeholder="Ingrese su ocupación actual" required="required">
                     </div>
 
                         <div class="form-group">  

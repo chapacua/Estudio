@@ -53,7 +53,7 @@
                         <label for="TeamName" class="control-label">Nombre del equipo</label>
                         <input type="text" name="TeamName" id="TeamName" class="form-control"value="" placeholder="Equipo"> 
                         <label for="PositionAtTeam" class="">Posicion en cancha</label>
-                        <select name="PositionAtTeam" id="PositionAtTeam" class="form-control">
+                        <select name="PositionAtTeam" id="PositionAtTeam" class="form-control" required="required">
                             <option value="">Seleccione</option>
                             <option value="Arquero">Arquero</option>
                             <option value="Defensa Centra">Defensa Central</option>
@@ -67,7 +67,7 @@
                             <option value="Punta">punta</option>
                         </select>
                         <label for="StartDate" class="">Inicio</label>
-                        <select name="StartDate" id="StartDate" class="form-control">
+                        <select name="StartDate" id="StartDate" class="form-control" required="required">
                             <option value="">Seleccione</option>
                             <option value="">2005-1</option>
                             <option value="">2005-2</option>
@@ -93,7 +93,7 @@
                             <option value="">2015-2</option>
                         </select>
                         <label for="EndDate" class="">Final</label>
-                        <select name="EndDate" id="EndDate" class="form-control">
+                        <select name="EndDate" id="EndDate" class="form-control" required="required">
                             <option value="">Seleccione</option>
                             <option value="">2005-2</option>
                             <option value="">2006-1</option>
@@ -127,7 +127,7 @@
                         </div>
                         <div class="form-group">  
                         <br>
-                            <button type="submit" class="btn btn-block btn-soccer">Omitir</button>
+                            <a href="CreacionPefilJugador6.php" class="btn btn-block btn-soccer">Omitir</a>
                         </div>
                         </div>
                     </div>

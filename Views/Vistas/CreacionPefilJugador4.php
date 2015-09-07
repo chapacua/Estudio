@@ -47,21 +47,21 @@
             </div>
 
         <div class="panel-body"> 
-                <form action="CreacionPefilJugador4.php" metod="POST" class="form-horizonal">
+                <form action="CreacionPefilJugador5.php" metod="POST" class="form-horizonal">
 
                     <div class="form-group">
-                        <label for="weight" class="">Peso (Kg)</label>
-                        <input type="number" name="weight" id="weight" min="10" max="150" class="form-control" placeholder="Peso en kilogramos" required="required">
+                        <label for="Weight" class="">Peso (Kg)</label>
+                        <input type="number" name="Weight" id="Weight" class="form-control" placeholder="Peso en kilogramos" min="10" max="150" required="required">
                     </div>
 
                     <div class="form-group">
                         <label for="height" class="">Estatura (Centimetros)</label>
-                        <input type="number" name="height" id="height" min="10" max="150" class="form-control" placeholder="180" required="required">
+                        <input type="number" name="Height" id="Height" class="form-control" placeholder="180" min="10" max="150" required="required">
                     </div>
 
                     <div class="form-group">
-                        <label for="first position" class="">Primera Posicion en cancha</label>
-                        <select name="first position" id="first position" class="form-control">
+                        <label for="FirstPosition" class="">Primera Posicion en cancha</label>
+                        <select name="FirstPosition" id="FirstPosition" class="form-control" required="required">
                             <option value="">Seleccione</option>
                             <option value="Arquero">Arquero</option>
                             <option value="Defensa Centra">Defensa Central</option>
@@ -77,8 +77,8 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="Second position" class="">Segunda Posicion en cancha</label>
-                        <select name="Second position" id="Second position" class="form-control">
+                        <label for="SecondPosition" class="">Segunda Posicion en cancha</label>
+                        <select name="SecondPosition" id="SecondPosition" class="form-control">
                            <option value="">Seleccione</option>
                             <option value="Arquero">Arquero</option>
                             <option value="Defensa Centra">Defensa Central</option>

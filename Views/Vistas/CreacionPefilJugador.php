@@ -39,16 +39,16 @@
 
     <form role="form" name="f1"  method="POST" action="CreacionPefilJugador2.php" class="form">
                         <div class="form-group">
-                                <label for="">Nombre(s)</label>
-                                <input type="text" class="form-control" name="Nombre" placeholder="Tu nombre" required="required">
+                                <label for="Name">Nombre(s)</label>
+                                <input type="text" name="Name" id="Name" class="form-control"  placeholder="Tu nombre" required="required">
                         </div>
                          <div class="form-group">
-                                <label for="">Apellido(s)</label>
-                                <input type="text" class="form-control" name="Apellido" placeholder="Tu apellido" required="required">
+                                <label for="Lastname">Apellido(s)</label>
+                                <input type="text" name="Lastname" id="Lastname"class="form-control" placeholder="Tu apellido" required="required">
                         </div>
                         <div class="form-group">
                                 <label for="Country">Pais de nacimiento</label>
-                                <select name="Country" class="form-control" onchange="cambia_Country()" id="Country" required="required">
+                                <select name="Country" id="Country" class="form-control" onchange="cambia_Country()"  required="required">
                                     <option value="0" selected="Selected">Seleccione...
                                     </option><option value="1">Afganistán
                                     </option><option value="2">Albania
@@ -293,22 +293,22 @@
                                 </select>
                                 
                         <div class="form-group">
-                                <label for="ex2">Estado de nacimiento</label>
-                                    <select class="form-control" name="State" id="sel1" required="required">
+                                <label for="State">Estado de nacimiento</label>
+                                    <select name="State" id="State" class="form-control" required="required">
                                         <option value="">Seleccione un pais primero</option>
                                     </select>
                         </div>
                         <div class="form-group">
                                 <label for="City">Ciudad de nacimiento</label>
-                                <input class="form-control" id="City" type="text" placeholder="Ciudad donde naciste" required="required">
+                                <input type="text" name="City"  id="City" class="form-control" placeholder="Ciudad donde naciste" required="required">
                         </div>
                         <div class="form-group">
-                                <label for="City">Ciudad de residencia</label>
-                                <input class="form-control" id="City" name="ResidenceCity" type="text" placeholder="Ciudad donde vives actualmente" required="required">
+                                <label for="ResidenceCity">Ciudad de residencia</label>
+                                <input type="text" name="ResidenceCity" id="ResidenceCity" class="form-control" placeholder="Ciudad donde vives actualmente" required="required">
                         </div>
                         <div class="form-group">
                                 <label for="BornDate">Fecha Nacimiento:</label>
-                                <input id="BornDate" name="BornDate" class="tcal tcalInput form-control" size="20" required="required" type="text">
+                                <input  type="text" name="BornDate" id="BornDate" class="tcal tcalInput form-control" size="20" required="required">
                                 <br>
                         </div>
                         <div class="form-group">  

@@ -51,7 +51,7 @@
 
                     <div class="form-group">
                         <label for="TournamentType" class="">Tipo</label>
-                        <select name="TournamentType" id="TournamentType" class="form-control">
+                        <select name="TournamentType" id="TournamentType" class="form-control" required="required">
                             <option value="">Seleccione</option>
                             <option value="">Torneo Barrial</option>
                             <option value="">Torneo Colegial</option>
@@ -64,9 +64,9 @@
                             <option value="">Torneo Internacional</option>
                         </select>
                         <label for="TournamentName" class="control-label">Nombre del torneo</label>
-                        <input type="text" name="TournamentName" id="TournamentName" class="form-control"value="" placeholder="Equipo"> 
+                        <input type="text" name="TournamentName" id="TournamentName" class="form-control"value="" placeholder="Equipo" required="required"> 
                         <label for="TournamentYear" class="">Año</label>
-                        <select name="TournamentYear" id="TournamentYear" class="form-control">
+                        <select name="TournamentYear" id="TournamentYear" class="form-control" required="required">
                             <option value="">Seleccione</option>
                             <option value="">2005-2</option>
                             <option value="">2006-1</option>
@@ -90,8 +90,8 @@
                             <option value="">2015-1</option>
                             <option value="">2015-2</option>
                         </select>
-                        <label for="Team" class="control-label">Nombre del equipo</label>
-                        <input type="text" name="" class="form-control"value="" placeholder="Equipo"> 
+                        <label for="TeamWinner" class="control-label">Nombre del equipo</label>
+                        <input type="text" name="TeamWinner" id="TeamWinner" class="form-control"value="" placeholder="Equipo" required="required"> 
 
 
                             <a href="#" onclick="AgregarCampos();">Agregar Otro...</a>
@@ -105,7 +105,7 @@
                         </div>
                         <div class="form-group">  
                         <br>
-                            <button type="submit" class="btn btn-block btn-soccer">Omitir</button>
+                            <a href="Estahecho.php" class="btn btn-block btn-soccer">Omitir</a>
                         </div>
         </div>
                 </form>

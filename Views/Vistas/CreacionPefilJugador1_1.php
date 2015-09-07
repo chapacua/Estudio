@@ -37,32 +37,32 @@
             
     <div class="panel-body">
 
-    <form role="form" name="f1"  method="POST" action="CreacionPefilJugador2.php" class="form">
+    <form role="form" name="f1"  method="POST" action="CreacionPefilJugador.php" class="form">
                         <div class="form-group">
-                                <label for="">Nombre(s)</label>
-                                <input type="text" class="form-control" name="Nombre" placeholder="Tu nombre" required="required">
+                                <label for="PartnerName">Nombre(s)</label>
+                                <input type="text" class="form-control" name="PartnerName" id="PartnerName" placeholder="Tu nombre" required="required">
                         </div>
                          <div class="form-group">
-                                <label for="">Apellido(s)</label>
-                                <input type="text" class="form-control" name="Apellido" placeholder="Tu apellido" required="required">
+                                <label for="PartnerLastname">Apellido(s)</label>
+                                <input type="text" class="form-control" name="PartnerLastname" id="PartnerLastname" placeholder="Tu apellido" required="required">
                         </div>
                         <div class="form-group">
-                                <label for="">Correo</label>
-                                <input type="email" class="form-control">
+                                <label for="PartnerEmail">Correo</label>
+                                <input  type=email id="PartnerEmail" class="form-control" name="PartnerEmail" id="PartnerApellido" placeholder="Ejemplo@ejemplo.com" required="required">
                         </div>
                         <div class="form-group">
-                                <label for="">Relacion con el jugador</label>
-                                <select name="" id="" class="form-control" placeholder="">
+                                <label for="Relationship">Relacion con el jugador</label>
+                                <select name="Relationship" id="Relationship" class="form-control" placeholder="" required="required">
                                     <option value="">Seleccione</option>
-                                    <option value="">Madre</option>
-                                    <option value="">Padre</option>
-                                    <option value="">Abuelo</option>
-                                    <option value="">Tio</option>
-                                    <option value="">Otro familiar</option>
-                                    <option value="">Padrino</option>
-                                    <option value="">Encargado legal</option>
-                                    <option value="">Manager</option>
-                                    <option value="">Entrenador</option>
+                                    <option value="Madre">Madre</option>
+                                    <option value="Padre">Padre</option>
+                                    <option value="Abuelo">Abuelo</option>
+                                    <option value="Tio">Tio</option>
+                                    <option value="Otro_familiar">Otro familiar</option>
+                                    <option value="Padrino">Padrino</option>
+                                    <option value="Encargado">Encargado legal</option>
+                                    <option value="Manager">Manager</option>
+                                    <option value="Entrenador">Entrenador</option>
                                 </select>
                         </div>
                         <div class="form-group">  
