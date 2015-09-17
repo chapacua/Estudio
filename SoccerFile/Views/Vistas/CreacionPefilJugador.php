@@ -21,66 +21,73 @@
   <link rel="icon" type="image/png" href="../../../SoccerFile/Imagenes/ico.png"/>
   <link rel="stylesheet" type="text/css" href="../../../SoccerFile/Views/Styles/Bootstrap/calendario/tcal.css" />
   <script type="text/javascript" src="../../Views/Styles/Bootstrap/calendario/tcal.js"></script>
-       <title>Soccer File</title>
+  <title>Soccer File</title>
 </head>
 <body>
 <br>
 <div class="well">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="panel panel-primary">
+          <div class="panel-heading">!Ya haces parte de Soccer File ®!</FONT>
+            <div class="progress">
+            <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%"> 10%
+            </div>
+            </div>
+            <label>Porcentaje de creacion de perfil</label>
+            </div>
+            <div class="jumbotron">
+              <h3>Bienvenido "Nombre" a la creacion de perfil para jugadores.</h3>
+              <p>A continuacion te pediremos que ingreses unos datos personales y profesionales, para así formar un perfil completo y tengas mas probabilidades de cumplir tu sueño</p>
+            </div>
+        <div class="panel-body" > 
 <div class="container">
-<div class="row">
-  <div class="col-md-12">
-    <div class="panel panel-primary">
-      <div class="panel-heading">Bienvenido "Nombre del usuario" es hora de mostrarle al mundo quien eres. Para empezar elige tu perfil.</FONT></div>
-      <div class="panel-body"> 
-<hr>
-<div style="float:left;width:33%">
-<a href="#">
-<img  class="img-responsive" data-alt-src="http://192.168.17.72/SoccerFile/Imagenes/img2.jpg" 
-src="http://192.168.17.72/SoccerFile/Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
-</a>
-</div>
-<div style="float:left;width:33%">
-<a href="http://192.168.17.72/SoccerFile/Views/Vistas/CreaPerfilJugador.php">
-<img  class="img-responsive" data-alt-src="http://192.168.17.72/SoccerFile/Imagenes/img2.jpg" 
-src="http://192.168.17.72/SoccerFile/Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
-</a>
-</div>
-<div style="float:left;width:33%;">
-<a href="#">
-<img  class="img-responsive" data-alt-src="http://192.168.17.72/SoccerFile/Imagenes/img2.jpg" 
-src="http://192.168.17.72/SoccerFile/Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
-</a>
-</div>
+  <form role="form">
+    <div class="form-group">
+      <div class="col-xs-4">
+        <label for="ex1">Pais de nacimiento</label>
+          <select class="form-control" id="sel1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+         </select>
+      </div>
+    <div class="col-xs-4">
+        <label for="ex2">Departamento de nacimiento</label>
+          <select class="form-control" id="sel1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+    </div>
+    <div class="col-xs-3">
+        <label for="ex3">Ciudad de nacimiento</label>
+          <input class="form-control" id="ex3" type="text" placeholder="Ciudad donde registra tu nacimiento">
+    </div>
+    <div class="col-sm-5">
+    </div>
+    <div class="col-sm-4">
+        <label for="sel1">Fecha Nacimiento:</label></div>
+    </div>
+    <div class="col-sm-5">
+    </div>
+    <div class="row">
+    <div class="col-sm-2">
+        <input id="fecha2" name="fecha2" class="tcal tcalInput form-control" size="20" required="required" type="text">
+    </div>
+    </div>
 <div style="clear:both;margin-bottom:20px;"></div>
-<hr>
-<hr>
-<div style="float:left;width:33%">
-<a href="#">
-<img  class="img-responsive" data-alt-src="http://192.168.17.72/SoccerFile/Imagenes/img2.jpg" 
-src="http://192.168.17.72/SoccerFile/Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
-</a>
 </div>
-<div style="float:left;width:33%">
-<a href="#">
-<img  class="img-responsive" data-alt-src="http://192.168.17.72/SoccerFile/Imagenes/img2.jpg" 
-src="http://192.168.17.72/SoccerFile/Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
-</a>
-</div>
-<div style="float:left;width:33%;">
-<a href="#">
-<img  class="img-responsive" data-alt-src="http://192.168.17.72/SoccerFile/Imagenes/img2.jpg" 
-src="http://192.168.17.72/SoccerFile/Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
-</a>
-</div>
-<div style="clear:both;margin-bottom:20px;"></div>
-<hr>
-
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<br>
+<br>
+    <div class="form-group">        
+      <div class="col-sm-12">
+        <button type="submit" class="btn btn-soccer">Continuar</button>
+      </div>
+    </div>
+  </form>
 </body>
 </html>

@@ -2559,7 +2559,7 @@ output {
   color: #555;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid #DE2527;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
@@ -3055,6 +3055,73 @@ fieldset[disabled] .btn {
 a.btn.disabled,
 fieldset[disabled] a.btn {
   pointer-events: none;
+}
+.btn-soccer {
+  color: #FFFFFF;
+  background-color: #0B0719;
+  border-color: #ccc;
+}
+.btn-soccer:focus,
+.btn-soccer.focus {
+  color: #5bc0de;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.btn-soccer:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-soccer:active,
+.btn-soccer.active,
+.open > .dropdown-toggle.btn-soccer {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-soccer:active:hover,
+.btn-soccer.active:hover,
+.open > .dropdown-toggle.btn-soccer:hover,
+.btn-soccer:active:focus,
+.btn-soccer.active:focus,
+.open > .dropdown-toggle.btn-soccer:focus,
+.btn-soccer:active.focus,
+.btn-soccer.active.focus,
+.open > .dropdown-toggle.btn-soccer.focus {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.btn-soccer:active,
+.btn-soccer.active,
+.open > .dropdown-toggle.btn-soccer {
+  background-image: none;
+}
+.btn-soccer.disabled,
+.btn-soccer[disabled],
+fieldset[disabled] .btn-soccer,
+.btn-soccer.disabled:hover,
+.btn-soccer[disabled]:hover,
+fieldset[disabled] .btn-soccer:hover,
+.btn-soccer.disabled:focus,
+.btn-soccer[disabled]:focus,
+fieldset[disabled] .btn-soccer:focus,
+.btn-soccer.disabled.focus,
+.btn-soccer[disabled].focus,
+fieldset[disabled] .btn-soccer.focus,
+.btn-soccer.disabled:active,
+.btn-soccer[disabled]:active,
+fieldset[disabled] .btn-soccer:active,
+.btn-soccer.disabled.active,
+.btn-soccer[disabled].active,
+fieldset[disabled] .btn-soccer.active {
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-soccer .badge {
+  color: #fff;
+  background-color: #333;
+}
 }
 .btn-default {
   color: #333;
@@ -5217,7 +5284,7 @@ a.thumbnail.active {
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #08090A;
 }
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
@@ -6783,7 +6850,8 @@ button.close {
 @media print {
   .visible-print-inline {
     display: inline !important;
-  }
+  }123qwe..
+
 }
 .visible-print-inline-block {
   display: none !important;
@@ -6819,9 +6887,13 @@ height:100px;
 background:#DE2527;
 
 background-repeat: no-repeat;
+}
+.cajon1{
+float:left;
 
-#imagen1-1
-{
-border-radius: 10px;
+}
+.cajon2{
+float:left;
+
 
 }
