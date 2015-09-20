@@ -13,7 +13,6 @@
     <meta name="language" content="Spanish">
     <meta name="language" content="English">
 <head>
-<<<<<<< HEAD
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link rel="stylesheet" href="../../Views/Styles/Bootstrap/css/bootstrap.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -22,14 +21,12 @@
   <link rel="icon" type="image/png" href="../../../SoccerFile/Imagenes/ico.png"/>
   <link rel="stylesheet" type="text/css" href="../../../SoccerFile/Views/Styles/Bootstrap/calendario/tcal.css" />
   <script type="text/javascript" src="../../Views/Styles/Bootstrap/calendario/tcal.js"></script>
-=======
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
  <link rel="stylesheet" href="http://192.168.16.198/SoccerFile/Views/Styles/Bootstrap/css/bootstrap.css">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  <script src="http://192.168.16.198/SoccerFile/Views/Styles/Bootstrap/js/bootstrap.js"></script>
  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <link rel="icon" type="image/png" href="http://192.168.16.198/SoccerFile/Imagenes/ico.png"/>
->>>>>>> dc9fd959c7eeafc7f28c15875800980111e7d8da
        <title>Soccer File</title>
 </head>
 <body>
@@ -49,7 +46,7 @@ src="http://192.168.17.72/SoccerFile/Imagenes/img1.jpg"  alt="Cinque Terre" styl
 </a>
 </div>
 <div style="float:left;width:33%">
-<a href="http://192.168.17.72/SoccerFile/Views/Vistas/CreaPerfilJugador.php">
+<a href="http://192.168.17.72/SoccerFile/Views/Vistas/CreacionPefilJugador.php">
 <img  class="img-responsive" data-alt-src="http://192.168.17.72/SoccerFile/Imagenes/img2.jpg" 
 src="http://192.168.17.72/SoccerFile/Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
 </a>
