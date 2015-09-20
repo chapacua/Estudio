@@ -1,52 +1,20 @@
 <html>
  <head>
 <LINK rel="stylesheet" type="text/css" href="estilos/BASE.css">
+  <link rel="stylesheet" href="../Views/Styles/Bootstrap/css/bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="../../Views/Styles/Bootstrap/js/bootstrap.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/png" href="../../../SoccerFile/Imagenes/ico.png"/>
 
-<SCRIPT language="javascript">
-function addRow(tableID) {
-     var table = document.getElementById(tableID);
-
-     var rowCount = table.rows.length;
-     var row = table.insertRow(rowCount);
-
-
-      var cell1 = row.insertCell(0);
-      var element1 = document.createElement("input");
-      element1.type = "text";
-      cell1.appendChild(element1);
-      }
-
-
-          function deleteRow(tableID) {
-
-               try {
-
-               var table = document.getElementById(tableID);
-
-               var rowCount = table.rows.length;
-
-
-for(var i=0; i<rowCount; i++) {
-
-var row = table.rows[i];
-
-var chkbox = row.cells[0].childNodes[0];
-
-if(null != chkbox && true == chkbox.checked) {
-
-table.deleteRow(i);
-
-rowCount--;
-
-i--;
-  }
+<script type="text/javascript">
+var nextinput = 0;
+function AgregarCampos(){
+nextinput++;
+campo = '<li id="rut'+nextinput+'">Campo:<input type="text" class="form-control" size="20" id="campo' + nextinput + '"&nbsp; name="campo' + nextinput + '"&nbsp; /></li>';
+$("#campos").append(campo);
 }
-  }catch(e) {
-    alert(e);
-  }
-}
-</SCRIPT>
-
+</script>
 </head>
 <body>
 
@@ -60,3 +28,7 @@ i--;
   </tr>
   <tr>
 </table>
+ <form id="form" name="form" method="post">
+ <a href="#" onclick="AgregarCampos();">Agregar Campos</a>
+ <div id="campos">
+ </div>
