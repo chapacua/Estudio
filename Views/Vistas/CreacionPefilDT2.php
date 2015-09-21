@@ -46,50 +46,56 @@
                     <p>Para las personas es muy importante saber en donde has trabajado, ya que esto es un reflejo de la calidad de tu trabajo y experiencia</p>
             </div>
             
-    <div class="panel-body" > 
-        
-    <form action="CreacionPefilDT2.php" metod="POST" class="form-inline">
-    			<div>
-                    <div class="form-group col-md-5">
+
+        <div class="panel-body"> 
+                <form action="CreacionPefilJugador6.php" metod="POST" class="form-inline">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <div class="form-group">
                         <label for="TeamName" class="control-label">Nombre del equipo</label>
-                        <input type="text" name="TeamName" id="TeamName" class="form-control"value="" placeholder="Equipo"> 
-
-
+                        &nbsp;&nbsp;
+                        <input type="text" name="TeamName" id="TeamName" class="form-control" value="" placeholder="Equipo" required="required"> 
+                       	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <label for="StartDate" class="control-label">Inicio</label>
+                        &nbsp;&nbsp;
                         <select name="StartDate" id="StartDate" class="form-control" required="required">
                             <option value="">Seleccione</option>
-
                             <?php 
                             for ($i=1950; $i<=2015; $i++) {
   							echo "<option value='$i'>$i</option>";
   							}
    							?>
-
                         </select>
-           
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <label for="EndDate" class="control-label">Final</label>
+                        &nbsp;&nbsp;
                         <select name="EndDate" id="EndDate" class="form-control" required="required">
                             <option value="">Seleccione</option>
-
                             <?php 
                             for ($i=1950; $i<=2015; $i++) {
   							echo "<option value='$i'>$i</option>";
   							}
    							?>
-
+   						</select>
+   						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <a href="#" onclick="AgregarCampos();">Agregar Otro...</a>
                         <div id="campos">
+                                     
                         </div>
                         <div class="form-group">  
+                        <br>
                             <button type="submit" class="btn btn-block btn-soccer">Continuar</button>
                         </div>
+                        <div class="form-group">  
+                        <br>
+                            <a href="CreacionPefilJugador6.php" class="btn btn-block btn-soccer">Omitir</a>
                         </div>
-                </div>
-     </form>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-</div> 
+</div>
 <script type="text/javascript">
 var TeamName = 0;
 var PositionAtTeam = 0;
@@ -101,9 +107,9 @@ PositionAtTeam++;
 StartDate++;
 EndDate++;
 
-campo = '<br><div class="form-group"><label for="TeamName'+ TeamName +'" class="control-label">Nombre del equipo</label>&nbsp;<input type="text" name="TeamName'+ TeamName +'" id="TeamName'+ TeamName +'" class="form-control"value="" placeholder="Equipo">&nbsp;<label for="PositionAtTeam'+ PositionAtTeam +'" class="">Posicion en cancha</label>&nbsp;<select name="PositionAtTeam'+ PositionAtTeam +'" id="PositionAtTeam'+ PositionAtTeam +'" class="form-control"><option value="">Seleccione</option><option value="Arquero">Arquero</option><option value="Defensa Centra">Defensa Central</option><option value="Defensa por izquierda">Defensa por izquierda</option><option value="Defensa por derecha">Defensa por derecha</option><option value="Medio campo">Medio campo</option><option value="Lateral izquierdo">Lateral izquierdo</option><option value="Lateral derecho">Lateral derecho</option><option value="Armador">Armador</option><option value="Media punta">Media punta</option></select>&nbsp;<label for="StartDate'+ StartDate+'" class="">Inicio</label>&nbsp;<select name="StartDate'+ StartDate +'" id="StartDate'+ StartDate +'" class="form-control"><option value="">Seleccione</option><option value="">2005-1</option><option value="">2005-2</option><option value="">2006-1</option><option value="">2006-2</option><option value="">2007-1</option><option value="">2007-2</option><option value="">2008-1</option><option value="">2008-2</option><option value="">2009-1</option><option value="">2009-2</option><option value="">2010-1</option><option value="">2010-2</option><option value="">2011-1</option><option value="">2011-2</option><option value="">2012-1</option><option value="">2012-2</option><option value="">2013-1</option><option value="">2013-2</option><option value="">2014-1</option><option value="">2014-2</option><option value="">2015-1</option><option value="">2015-2</option></select>&nbsp;<label for="EndDate'+ EndDate +'" class="">Final</label>&nbsp;<select name="EndDate'+ EndDate +'" id="EndDate'+ EndDate +'" class="form-control"><option value="">Seleccione</option><option value="">2005-2</option><option value="">2006-1</option><option value="">2006-2</option><option value="">2007-1</option><option value="">2007-2</option><option value="">2008-1</option><option value="">2008-2</option><option value="">2009-1</option><option value="">2009-2</option><option value="">2010-1</option><option value="">2010-2</option><option value="">2011-1</option><option value="">2011-2</option><option value="">2012-1</option><option value="">2012-2</option><option value="">2013-1</option><option value="">2013-2</option><option value="">2014-1</option><option value="">2014-2</option><option value="">2015-1</option><option value="">2015-2</option></select></div></div><br>';
+campo = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><label for="TeamName" class="control-label">Nombre del equipo</label>&nbsp;&nbsp;<input type="text" name="TeamName" id="TeamName" class="form-control" value="" placeholder="Equipo" required="required">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="StartDate" class="control-label">Inicio</label> &nbsp;&nbsp;<select name="StartDate" id="StartDate" class="form-control" required="required"><option value="">Seleccione</option><?php for ($i=1950; $i<=2015; $i++) {echo "<option value=$i>$i</option>";}?></select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="EndDate" class="control-label">Final</label>&nbsp;&nbsp;<select name="EndDate" id="EndDate" class="form-control" required="required"><option value="">Seleccione</option><?php for ($i=1950; $i<=2015; $i++) {echo "<option value=$i>$i</option>";}?></select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="AgregarCampos();">Agregar Otro...</a>';
 $("#campos").append(campo);
 }
-</script>  
+</script> 
 </body>
 </html>
