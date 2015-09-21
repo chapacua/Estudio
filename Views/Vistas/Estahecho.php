@@ -46,13 +46,17 @@
             </div>
 
         <div class="panel-body"> 
+    <div class="container">
+      <div class="form-group">
 		<div align="center">
-			<img src="../../Imagenes/balon.gif" alt="">
+			<a href="#"><img src="../../Imagenes/balon.gif" alt=""></a>
 		</div>
-		<div align="center">
-			<a href="#" class="botton black medium">EMPECEMOS</a>
-		</div>
-
+    </div>
+    </div>
+          <div class="form-group">
+    <div align="center">
+    <img src="../../Imagenes/images.png" alt=""></a>
+    </div>
 
 </body>
 </html>

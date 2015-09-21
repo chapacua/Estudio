@@ -3122,7 +3122,6 @@ fieldset[disabled] .btn-soccer.active {
   color: #fff;
   background-color: #333;
 }
-}
 .btn-default {
   color: #333;
   background-color: #fff;
@@ -6871,93 +6870,3 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 /*Codigo agregado por Alejandro*/
 
-.over
-{display:block;
-width:100px;
-height:100px;
-background:#FFFFFF;
-border-radius: 10px;
-background-repeat: no-repeat;
-}
- 
-.over:hover
-{
-width:100px;
-height:100px;
-background:#DE2527;
-
-background-repeat: no-repeat;
-}
-.cajon1{
-float:left;
-
-}
-.cajon2{
-float:left;
-
-
-}
-
-/*Estilos Generales*/
-.botton {
-  background:#7f8c8d;
-  color:#fff;
-  display:inline-block;
-  font-size:1.25em;
-  margin:20px;
-  padding:10px 0;
-  text-align:center;
-  width:200px;
-  text-decoration:none;
-  box-shadow:0px 3px 0px #373c3c;
-  text-decoration:none;
-}
- 
-.botton span {
-  margin-right:10px;
-}
- 
-/*Colores*/
-.botton.black {
-  background:#474747;
-  box-shadow:0px 6px 0px #333333;
-  text-decoration:none;
-}
-
-.botton.blue {
-  background:#3498db;
-  box-shadow:0px 3px 0px #266792;
-}
- 
-.botton.yellow {
-  background:#e67e22;
-  box-shadow:0px 3px 0px #b55704;
-}
- 
- 
-/*Tamaños*/
-.botton.medium {
-  width:350px;
-}
- 
- 
-.botton.large {
-  width:450px;
-}
- 
- 
-.botton.radius {
-  border-radius:50px;
-}
- 
-/*Efectos, Hover*/
-.botton:hover {
-  background:#DE2527;
-  box-shadow:0px 6px 0px #6A1214;
-  text-decoration:none;  
-  font-color:#FFFFFF;
-  color: white;
-}
-.botton:visited {
-  color: white;
-}
