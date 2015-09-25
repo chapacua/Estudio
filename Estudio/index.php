@@ -1,45 +1,73 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-
-
-    <title>FINANZAS </title>
-    
-    
-    <link rel="stylesheet" href="css/reset.css">
-
-    
-        <link rel="stylesheet" href="css/style.css">
-
-    
-    
-    
-  </head>
-
-  <body>
-    <form  class="contact_form" action="login.php" id="contact_form" method="post" runat="server">
-    <div class="wrap">
-        <div class="avatar">
-      <img src="imagenes/images.png">
-        </div>
-        <input type="text" placeholder="username" required name="txtusuario"  id = "txtusuario">
-        <div class="bar">
-            <i></i>
-        </div>
-        <input type="password" placeholder="password" required name="txtpassword" id = "txtpassword">
-        <button>Sign ina</button>
-    </div>
-    
-        <script src="js/index.js"></script>
-
-    
-    
-    
-  </body>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="description" content="Ejemplo de HTML5"/>
+  <meta name="keywords" content="HTML5, CSS3, Javascript">
+  <link rel="stylesheet" type="text/css" href="css.css">
+  <title>Variables</title>
+</head>
+<body>
+    <header>
+        <h1>Aprendiendo HTML5 CSS3 Y JAVASCRIPT</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>Principal</li>
+            <li>Fotos</li>
+            <li>Videos</li>
+            <li>Contacto</li>
+        </ul>
+    </nav>
+    <section>
+        
+    </section>
+    <aside>
+        <blockquote>Mensaje UNO</blockquote>
+        <blockquote>Mensaje DOS</blockquote>
+    </aside>
+    <footer>
+        Derechos Reservados &copy; 2000-2015
+    </footer>
+</body>
 </html>
-<!--
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---
                _____________________________________________________
                |                                                    |
           __   |                                                    |
