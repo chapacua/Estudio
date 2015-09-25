@@ -50,8 +50,8 @@
                 <form action="CreacionPefilDoctor3.php" metod="POST" class="form-inline">
 
                     <div class="form-group ">
-                        <label for="TournamentType" class="">Tipo de titulo</label>
-                        <select name="TournamentType" id="TournamentType" class="form-control " required="required">
+                        <label for="EducationLevel" class="">Tipo de titulo</label>
+                        <select name="EducationLevel" id="EducationLevel" class="form-control " required="required">
                             <option value="">Seleccione</option>
                             <option value="">Empirico</option>
                             <option value="">Tenico</option>
@@ -65,8 +65,8 @@
                             <option value="">Diplomado</option>
                             <option value="">Otro</option>
                         </select>
-                        <label for="TournamentName" class="control-label">Nombre de la insitucion educativa</label>
-                        <input type="text" name="TournamentName" id="TournamentName" class="form-control"value="" placeholder="Colegio / Univerisdad / instituto" required="required"> 
+                        <label for="InstitutionName" class="control-label">Nombre de la insitucion educativa</label>
+                        <input type="text" name="InstitutionName" id="InstitutionName" class="form-control"value="" placeholder="Colegio / Univerisdad / instituto" required="required"> 
                      <label for="EndDate" class="control-label">Año de finalizacion</label>&nbsp;
                      <select name="EndDate" id="EndDate" class="form-control" required="required">
                      <option value="">Seleccione&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>

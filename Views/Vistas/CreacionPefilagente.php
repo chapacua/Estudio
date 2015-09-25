@@ -47,7 +47,7 @@
                                 <input type="text" name="Lastname" id="Lastname"class="form-control" placeholder="Tu apellido" required="required">
                         </div>
                         <div class="form-group">
-                                <label for="Country">Pais de recidencia</label>
+                                <label for="Country">Pais de residencia</label>
                                 <select name="Country" id="Country" class="form-control" onchange="cambia_Country()"  required="required">
                                     <option value="0" selected="Selected">Seleccione...
                                     </option><option value="1">Afganistán

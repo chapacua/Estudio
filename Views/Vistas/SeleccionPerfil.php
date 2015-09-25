@@ -33,7 +33,7 @@
       <div class="panel-body" align="center"> 
 <hr>
 <div style="float:left;width:33%">
-<a href="#">
+<a href="../../Views/Vistas/CreacionPefilDT.php">
 <img  class="img-responsive" data-alt-src="../../Imagenes/img2.jpg" 
 src="../../Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
 </a>
@@ -45,7 +45,7 @@ src="../../Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto
 </a>
 </div>
 <div style="float:left;width:33%;">
-<a href="#">
+<a href="../../Views/Vistas/CreacionPefilagente.php">
 <img  class="img-responsive" data-alt-src="../../Imagenes/img2.jpg" 
 src="../../Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
 </a>
@@ -54,19 +54,19 @@ src="../../Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto
 <hr>
 <hr>
 <div style="float:left;width:33%">
-<a href="#">
+<a href="../../Views/Vistas/SeleccionPerfiljugador.php">
 <img  class="img-responsive" data-alt-src="../../Imagenes/img2.jpg" 
 src="../../Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
 </a>
 </div>
 <div style="float:left;width:33%">
-<a href="#">
+<a href="../../Views/Vistas/CreacionPefilVendedor.php">
 <img  class="img-responsive" data-alt-src="../../Imagenes/img2.jpg" 
 src="../../Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
 </a>
 </div>
 <div style="float:left;width:33%;">
-<a href="#">
+<a href="../../Views/Vistas/CreacionPefilDoctor.php">
 <img  class="img-responsive" data-alt-src="../../Imagenes/img2.jpg" 
 src="../../Imagenes/img1.jpg"  alt="Cinque Terre" style="width:204px;height:auto;">
 </a>

@@ -58,8 +58,8 @@
 							<input type="text" name="Lastname" id="Lastname" class="form-control" placeholder="Apellido">
 						</div>
 						<div class="form-group">
-							<label for="Experience" class="control-label">Tiempo de experiencia</label>
-							<select name="Experience" id="Experience" class="form-control" required>
+							<label for="TimePlayed" class="control-label">Tiempo de experiencia</label>
+							<select name="TimePlayed" id="TimePlayed" class="form-control" required>
                                 <option value="">Seleccione</option>
                                 <option value="6_meses">Menos de 6 meses</option>
                                 <option value="6_And_1">Entre 6 meses y 1 año</option>

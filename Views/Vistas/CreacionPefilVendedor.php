@@ -37,7 +37,7 @@
             
     <div class="panel-body">
 
-    <form role="form" name="f1"  method="POST" action="CreacionPefilJugador2.php" class="form">
+    <form role="form" name="f1"  method="POST" action="Estahecho.php" class="form">
                         <div class="form-group">
                                 <label for="Name">Nombre(s)</label>
                                 <input type="text" name="Name" id="Name" class="form-control"  placeholder="Tu nombre" required="required">
@@ -47,7 +47,7 @@
                                 <input type="text" name="Lastname" id="Lastname"class="form-control" placeholder="Tu apellido" required="required">
                         </div>
                         <div class="form-group">
-                                <label for="Country">Pais de recidencia</label>
+                                <label for="Country">Pais de residencia</label>
                                 <select name="Country" id="Country" class="form-control" onchange="cambia_Country()"  required="required">
                                     <option value="0" selected="Selected">Seleccione...
                                     </option><option value="1">Afganistán
@@ -293,8 +293,8 @@
                                 </select>     
                         </div>
                         <div class="form-group">
-                            <label for="sel1">Productos:</label>
-                                <select multiple class="form-control" id="sel2">
+                            <label for="Products">Productos:</label>
+                                <select multiple name="Products" id="Products" class="form-control" id="sel2">
                                     <option>Productos estéticos</option>
                                     <option>Suplementos Alimenticios</option>
                                     <option>Prendas deportivas (zapatos, camisetas, etc)</option>
