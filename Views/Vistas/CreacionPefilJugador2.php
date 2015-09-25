@@ -20,7 +20,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="../../Views/Styles/Bootstrap/js/bootstrap.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link rel="icon" type="image/png" href="../../../SoccerFile/Imagenes/ico.png"/>
+  <link rel="icon" type="image/png" href="../../../Imagenes/ico.png"/>
   <link rel="stylesheet" type="text/css" href="../../../SoccerFile/Views/Styles/Bootstrap/calendario/tcal.css" />
   <script type="text/javascript" src="../../Views/Styles/Bootstrap/calendario/tcal.js"></script>
   <title>Soccer File</title>
@@ -37,7 +37,8 @@
                     </div>
                 </div>
 
-                    <label>Ya sabemos un poco más a cerca de ti, pero aún falta!</label>
+                <label>Estado creacion de pefil basico: En proceso</label>
+
                 </div>
 
             <div class="jumbotron">

@@ -1,26 +1,15 @@
-<html data-useragent="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0" style="" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths wf-adobecaslonpro-i4-active wf-adobecaslonpro-n4-active wf-alegreyasc-n7-active wf-jafberninosanscondensed-n3-active wf-jafberninosanscondensed-n4-active wf-active" lang="en"><!--<![endif]--><head>
-    <meta charset="utf-8">
-    <meta property="fb:app_id" content="">
-    <meta http-equiv="cleartype" content="on">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="author" content="SoccerFile">
-    <meta name="description" content="Page for player biginers">
-    <meta name="keywords" content="soccer, player, famous, training, futbol, futbol jugador, famoso, entrenamiento">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="rating" content="general">
-    <meta name="revisit-after" content="7 days">
-    <meta name="language" content="Spanish">
-    <meta name="language" content="English">
+<!DOCTYPE html>
+<html lang="en">
 <head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <link rel="stylesheet" href="../../Views/Styles/Bootstrap/css/bootstrap.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="../../Views/Styles/Bootstrap/js/bootstrap.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <link rel="icon" type="image/png" href="../../../SoccerFile/Imagenes/ico.png"/>
-  <link rel="stylesheet" type="text/css" href="../../../SoccerFile/Views/Styles/Bootstrap/calendario/tcal.css" />
+  <link rel="icon" type="image/png" href="../../../Imagenes/ico.png"/>
+  <link rel="stylesheet" type="text/css" href="../../../Views/Styles/Bootstrap/calendario/tcal.css" />
   <script type="text/javascript" src="../../Views/Styles/Bootstrap/calendario/tcal.js"></script>
   <title>Soccer File</title>
 </head>
@@ -29,6 +18,7 @@
 <div class="well">
   <div class="container">
         <div class="panel panel-primary">
+
             <div class="panel-heading">!Ya haces parte de Soccer File ®!</FONT>
 
                 <div class="progress">
@@ -36,7 +26,8 @@
                     </div>
                 </div>
 
-                    <label>Ya sabemos un poco más a cerca de ti, pero aún falta!</label>
+                <label>Estado creacion de pefil basico: En proceso</label>
+                
                 </div>
 
             <div class="jumbotron">
@@ -46,7 +37,7 @@
             
     <div class="panel-body">
 
-    <form role="form" name="f1"  method="POST" action="CreacionPefilJugador2.php">
+    <form role="form" name="f1"  method="POST" action="CreacionPefilJugador2.php" class="form">
                         <div class="form-group">
                                 <label for="">Nombre(s)</label>
                                 <input type="text" class="form-control" name="Nombre" placeholder="Tu nombre" required="required">
@@ -56,8 +47,7 @@
                                 <input type="text" class="form-control" name="Apellido" placeholder="Tu apellido" required="required">
                         </div>
                         <div class="form-group">
-                            <div class="col-xs-12 col-md-4">
-                                <label for="Country">Country de nacimiento</label>
+                                <label for="Country">Pais de nacimiento</label>
                                 <select name="Country" class="form-control" onchange="cambia_Country()" id="Country" required="required">
                                     <option value="0" selected="Selected">Seleccione...
                                     </option><option value="1">Afganistán
@@ -301,34 +291,21 @@
                                     </option><option value="241">Zimbabue
                                     </option>
                                 </select>
-                            </div>
-
-
-                            <div class="col-xs-12 col-md-4">
-                                <label for="ex2">State de nacimiento</label>
+                                
+                        <div class="form-group">
+                                <label for="ex2">Estado de nacimiento</label>
                                     <select class="form-control" name="State" id="sel1" required="required">
                                         <option value="">Seleccione un pais primero</option>
                                     </select>
-                            </div>
-
-                            <div class="col-xs-12 col-md-3">
-                                <label for="City">Ciudad de nacimiento</label>
-                                <input class="form-control" id="City" type="text" placeholder="Ciudad donde naciste" required="required">
-                            </div>
                         </div>
                         <div class="form-group">
-                            <div class="col-md-5">
-                            </div>
-                            <div class="col-md-4">
-                            <br>
+                                <label for="City">Ciudad de nacimiento</label>
+                                <input class="form-control" id="City" type="text" placeholder="Ciudad donde naciste" required="required">
+                        </div>
+                        <div class="form-group">
                                 <label for="BornDate">Fecha Nacimiento:</label>
-                            </div>
-                            <div class="col-md-5">
-                            </div>
-                            <div class="col-xs-12 col-md-2">
                                 <input id="BornDate" name="BornDate" class="tcal tcalInput form-control" size="20" required="required" type="text">
                                 <br>
-                            </div>
                         </div>
                         <div class="form-group">  
                             <br>
@@ -336,7 +313,14 @@
                                 <button type="submit" class="btn btn-block btn-soccer">Continuar</button>
                             </div>
                         </div>
+
     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script>
 //defino una serie de varibles Array para cada ciudad
 var continente1 = new Array('-', "Badakhshan", "Badghis", "Baghlan", "Balkh", "Bamian", "Farah", "Faryab", "Ghazni", "Ghowr", "Helmand", "Herat", "Jowzjan", "Kabol", "Kandahar", "Kapisa", "Khowst", "Konar", "Konar", "Kondoz", "Laghman", "Laghman", "Lowgar", "Nangarhar", "Nimruz", "Nurestan", "Oruzgan", "Paktia", "Paktia", "Paktika", "Parvan", "Samangan", "Sar-e Pol", "Takhar", "Vardak", "Zabol");
