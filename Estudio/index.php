@@ -28,7 +28,7 @@
             <i></i>
         </div>
         <input type="password" placeholder="password" required name="txtpassword" id = "txtpassword">
-        <button>Sign in</button>
+        <button>Sign ina</button>
     </div>
     
         <script src="js/index.js"></script>
