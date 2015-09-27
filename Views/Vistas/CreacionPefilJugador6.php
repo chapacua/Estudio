@@ -114,11 +114,17 @@
     </div>
 </div>
 <script type="text/javascript">
-var nextinput = 0;
+var TournamentType = 0;
+var TournamentName = 0;
+var TournamentYear = 0;
+var Team = 0;
 function AgregarCampos(){
-nextinput++;
+TournamentType++;
+TournamentName++;
+TournamentYear++; 
+Team++;
 
-campo = '<br><div class="form-group"><label for="TournamentType" class="">Tipo</label>&nbsp;<select name="TournamentType" id="TournamentType" class="form-control"><option value="">Seleccione</option><option value="">Torneo Barrial</option><option value="">Torneo Colegial</option><option value="">Torneo Intercolegial</option><option value="">Torneo Empresarial</option><option value="">Torneo Municipal</option><option value="">Torneo Intermunicipal</option><option value="">Torneo Departamental</option><option value="">Torneo Nacional</option><option value="">Torneo Internacional</option></select>&nbsp;<label for="TournamentName" class="control-label">Nombre del torneo</label>&nbsp;<input type="text" name="TournamentName" id="TournamentName" class="form-control"value="" placeholder="Equipo">&nbsp;<label for="TournamentYear" class="">Año</label>&nbsp;<select name="TournamentYear" id="TournamentYear" class="form-control"><option value="">Seleccione</option><option value="">2005-2</option><option value="">2006-1</option><option value="">2006-2</option><option value="">2007-1</option><option value="">2007-2</option><option value="">2008-1</option><option value="">2008-2</option><option value="">2009-1</option><option value="">2009-2</option><option value="">2010-1</option><option value="">2010-2</option><option value="">2011-1</option><option value="">2011-2</option><option value="">2012-1</option><option value="">2012-2</option><option value="">2013-1</option><option value="">2013-2</option><option value="">2014-1</option><option value="">2014-2</option><option value="">2015-1</option><option value="">2015-2</option></select>&nbsp;<label for="Team" class="control-label">Nombre del equipo</label>&nbsp;<input type="text" name="" class="form-control"value="" placeholder="Equipo"></div><br>';
+campo = '<br><div class="form-group"><label for="TournamentType'+ TournamentType +'" class="">Tipo</label>&nbsp;<select name="TournamentType'+ TournamentType +'" id="TournamentType'+ TournamentType +'" class="form-control"><option value="">Seleccione</option><option value="">Torneo Barrial</option><option value="">Torneo Colegial</option><option value="">Torneo Intercolegial</option><option value="">Torneo Empresarial</option><option value="">Torneo Municipal</option><option value="">Torneo Intermunicipal</option><option value="">Torneo Departamental</option><option value="">Torneo Nacional</option><option value="">Torneo Internacional</option></select>&nbsp;<label for="TournamentName'+ TournamentName +'" class="control-label">Nombre del torneo</label>&nbsp;<input type="text" name="TournamentName'+ TournamentName +'" id="TournamentName'+ TournamentName +'" class="form-control" value="" placeholder="Equipo">&nbsp;<label for="TournamentYear'+ TournamentYear +'" class="">Año</label>&nbsp;<select name="TournamentYear'+ TournamentYear +'" id="TournamentYear'+ TournamentYear +'" class="form-control"><option value="">Seleccione</option><option value="">2005-2</option><option value="">2006-1</option><option value="">2006-2</option><option value="">2007-1</option><option value="">2007-2</option><option value="">2008-1</option><option value="">2008-2</option><option value="">2009-1</option><option value="">2009-2</option><option value="">2010-1</option><option value="">2010-2</option><option value="">2011-1</option><option value="">2011-2</option><option value="">2012-1</option><option value="">2012-2</option><option value="">2013-1</option><option value="">2013-2</option><option value="">2014-1</option><option value="">2014-2</option><option value="">2015-1</option><option value="">2015-2</option></select>&nbsp;<label for="Team'+ Team +'" class="control-label">Nombre del equipo</label>&nbsp;<input type="text" name="Team'+ Team +'" id="Team'+ Team +'" class="form-control"value="" placeholder="Equipo"></div><br>';
 $("#campos").append(campo);
 }
 </script> 
