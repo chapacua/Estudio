@@ -29,8 +29,8 @@
 <div class="row">
   <div class="col-md-12">
     <div class="panel panel-primary">
-      <div class="panel-heading">Bienvenido "Nombre del usuario" es hora de mostrarle al mundo quien eres. Para empezar elige tu perfil.</FONT></div>
-      <div class="panel-body"> 
+      <div class="panel-heading">Bienvenido es hora de mostrarle al mundo quien eres. Para empezar elige tu perfil.</FONT></div>
+      <div class="panel-body" align="center"> 
 <hr>
 <div style="float:left;width:33%">
 <a href="#">

@@ -30,7 +30,7 @@
 <div class="well">
   <div class="container">
         <div class="panel panel-primary">
-            <div class="panel-heading">!Ya haces parte de Soccer File ®!</FONT>
+            <div class="panel-heading">!Ya haces parte de SoccerFile ®!</FONT>
 
                 <div class="progress">
                     <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"> 60%
@@ -42,29 +42,12 @@
                 </div>
 
             <div class="jumbotron">
-                    <h3>Ya va más de la mitad!</h3>
+                    <h3>Ya vas más allá de la mitad!</h3>
                     <p>Solo unos datos mas y terminamos</p>
             </div>
 
         <div class="panel-body"> 
                 <form action="CreacionPefilJugador4.php" metod="POST" class="form-horizonal">
-                    <div class="form-group">
-                        <label for="Marital_status" class="">Estado Civil</label>
-                        <select name="Marital_status" id="Marital_status" class="form-control">
-                            <option value="">Seleccione</option>
-                            <option value="Single">Soltero</option>
-                            <option value="Married">Casado</option>
-                            <option value="Free_Union">Union Libre</option>
-                            <option value="Divorced">Divorciado</option>
-                            <option value="Widower">Viudo</option>
-                            <option value="Separate">Separado</option>
-                        </select>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="current_occupation" class="">Ocupacion actual</label>
-                        <input type="text" id="current_occupation" class="form-control" placeholder="Ingrese su ocupación actual" required="required">
-                    </div>
 
                     <div class="form-group">
                         <label for="weight" class="">Peso (Kg)</label>

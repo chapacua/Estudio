@@ -303,6 +303,10 @@
                                 <input class="form-control" id="City" type="text" placeholder="Ciudad donde naciste" required="required">
                         </div>
                         <div class="form-group">
+                                <label for="City">Ciudad de residencia</label>
+                                <input class="form-control" id="City" name="ResidenceCity" type="text" placeholder="Ciudad donde vives actualmente" required="required">
+                        </div>
+                        <div class="form-group">
                                 <label for="BornDate">Fecha Nacimiento:</label>
                                 <input id="BornDate" name="BornDate" class="tcal tcalInput form-control" size="20" required="required" type="text">
                                 <br>
