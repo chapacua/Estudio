@@ -40,18 +40,19 @@
                     <label>Estado creacion de pefil basico: Completo</label>
                 </div>
 
-            <div class="jumbotron">
+            <div class="jumbotron" align="center">
                     <h3>¡Ya terminaste "Nombre"! </h3>
                     <p>Ahora que podemos mostrar al mundo quien eres, es momento de empezar</p>
             </div>
 
         <div class="panel-body"> 
-        <a id="bsa_closeAd" title="Hide this ad!" href=""></a><script src="http://cdn.adpacks.com/adpacks.js?legacyid=1259038&amp;zoneid=1386&amp;key=fe75131c335e3bd42585d699208c59c8&amp;serve=C6SI42Y&amp;placement=tutorialzinecom&amp;circle=dev" async="" type="text/javascript" id="_adpacks_js"></script></div>
+		<div align="center">
+			<img src="../../Imagenes/balon.gif" alt="">
+		</div>
+		<div align="center">
+			<a href="#" class="botton black medium">EMPECEMOS</a>
+		</div>
 
-               <div>
-                  <a href="#" class="button big blue">Empezar</a> 
-
-               </div>
 
 </body>
 </html>
