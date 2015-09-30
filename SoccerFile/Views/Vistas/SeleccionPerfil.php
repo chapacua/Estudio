@@ -13,20 +13,12 @@
     <meta name="language" content="Spanish">
     <meta name="language" content="English">
 <head>
-<<<<<<< HEAD
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <link rel="stylesheet" href="http://192.168.16.198/SoccerFile/Views/Styles/Bootstrap/css/bootstrap.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://192.168.16.198/SoccerFile/Views/Styles/Bootstrap/js/bootstrap.js"></script>
-=======
- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
-  <link rel="stylesheet" href="http://192.168.16.198/Bootstrap/css/bootstrap.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://192.168.16.198/Bootstrap/js/bootstrap.min.js"></script>
->>>>>>> f680f15ce973da07f96778d53dd27a6c52c3075d
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster|Tangerine|IM+Fell|Helvetica">
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-   <link rel="icon" type="image/png" href="http://192.168.16.198/SoccerFile/Imagenes/ico.png"/>
+ <link rel="stylesheet" href="http://192.168.16.198/SoccerFile/Views/Styles/Bootstrap/css/bootstrap.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="http://192.168.16.198/SoccerFile/Views/Styles/Bootstrap/js/bootstrap.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/png" href="http://192.168.16.198/SoccerFile/Imagenes/ico.png"/>
        <title>Soccer File</title>
 </head>
 <body>
@@ -34,7 +26,6 @@
 <div class="well">
 <div class="container">
 <div class="row">
-<<<<<<< HEAD
   <div class="col-md-12">
     <div class="panel panel-primary">
       <div class="panel-heading">Bienvenido "Nombre del usuario" es hora de mostrarle al mundo quien eres. Para empezar elige tu perfil.</FONT></div>
@@ -89,40 +80,5 @@ src="http://192.168.16.198/SoccerFile/Imagenes/img1.jpg"  alt="Cinque Terre" sty
 </div>
 </div>
 </div>
-=======
-  <div class="col-sm-12">
-    <div class="panel panel-primary">
-      <div class="panel-heading">Bienvenido "Nombre del usuario" es hora de mostrarle al mundo quien eres. Para empezar elige tu perfil.</FONT></div>
-      <div class="panel-body"> 
-      <div>
-        <a href="#" class="over">MANAGER</a>   
-
-        <a href="#" class="over">JUGADOR</a>  
-</div>
-<div>
-        <a href="#" class="over">DIRECTOR TÉCNICO</a>
-
-
-
-        <a href="#" class="over">MANAGER</a>   
-</div>
-</div>
-        <a href="#" class="over">JUGADOR</a>  
-
-        <a href="#" class="over">DIRECTOR TÉCNICO</a>
-
-</div>    </div>
-    </div>
-<br>
-<br>
-<br>
-<br>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
->>>>>>> f680f15ce973da07f96778d53dd27a6c52c3075d
 </body>
 </html>
