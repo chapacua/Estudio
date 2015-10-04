@@ -30,7 +30,7 @@
 <div class="well">
   <div class="container">
         <div class="panel panel-primary">
-            <div class="panel-heading">SOCCERFILE®.</FONT></div>
+            <div class="panel-heading">SOCCERFILE®.</FONT>
 
                 <div class="progress">
                     <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"> 90%
@@ -107,7 +107,7 @@
                         <br>
                             <a href="Estahecho.php" class="btn btn-block btn-soccer">Omitir</a>
                         </div>
-        </div>
+
                 </form>
             </div>
         </div>

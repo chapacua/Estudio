@@ -48,39 +48,26 @@
             
 
         <div class="panel-body"> 
-                <form action="CreacionPefilJugador6.php" metod="POST" class="form-inline">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <form action="CreacionPefilDT3.php" metod="POST" class="form-inline">
                     <div class="form-group">
-                        <label for="TeamName" class="control-label">Nombre del equipo</label>
-                        &nbsp;&nbsp;
-                        <input type="text" name="TeamName" id="TeamName" class="form-control" value="" placeholder="Equipo" required="required"> 
-                       	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <label for="StartDate" class="control-label">Inicio</label>
-                        &nbsp;&nbsp;
-                        <select name="StartDate" id="StartDate" class="form-control" required="required">
-                            <option value="">Seleccione</option>
-                            <?php 
-                            for ($i=1950; $i<=2015; $i++) {
-  							echo "<option value='$i'>$i</option>";
-  							}
-   							?>
-                        </select>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <label for="EndDate" class="control-label">Final</label>
-                        &nbsp;&nbsp;
-                        <select name="EndDate" id="EndDate" class="form-control" required="required">
-                            <option value="">Seleccione</option>
-                            <?php 
-                            for ($i=1950; $i<=2015; $i++) {
-  							echo "<option value='$i'>$i</option>";
-  							}
-   							?>
-   						</select>
-   						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="#" onclick="AgregarCampos();">Agregar Otro...</a>
-                        <div id="campos">
-                                     
-                        </div>
+                    &nbsp;&nbsp;<label for="TeamName" class="control-label">Nombre del equipo dirigido</label>&nbsp;&nbsp;
+                    <input type="text" name="TeamName" id="TeamName" class="form-control" size="30" value="" placeholder="Equipo" required="required">&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label for="StartDate" class="control-label">Inicio</label> &nbsp;
+                    <select name="StartDate" id="StartDate" class="form-control" required="required">
+                    <option value="">Seleccione&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </option><?php for ($i=1950; $i<=2015; $i++)
+                     {echo "<option value='$i'>$i</option>";}?>
+                     </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <label for="EndDate" class="control-label">Final</label>&nbsp;
+                     <select name="EndDate" id="EndDate" class="form-control" required="required">
+                     <option value="">Seleccione&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                     <?php for ($i=1950; $i<=2015; $i++)
+                      {echo "<option value='$i'>$i</option>";}?>
+                      </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <a href="#" onclick="AgregarCampos();">Agregar Otro...</a>
+                      <div id="campos">
+                      </div>
                         <div class="form-group">  
                         <br>
                             <button type="submit" class="btn btn-block btn-soccer">Continuar</button>
@@ -88,7 +75,6 @@
                         <div class="form-group">  
                         <br>
                             <a href="CreacionPefilJugador6.php" class="btn btn-block btn-soccer">Omitir</a>
-                        </div>
                         </div>
                     </div>
                 </form>
@@ -107,7 +93,7 @@ PositionAtTeam++;
 StartDate++;
 EndDate++;
 
-campo = '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><label for="TeamName" class="control-label">Nombre del equipo</label>&nbsp;&nbsp;<input type="text" name="TeamName" id="TeamName" class="form-control" value="" placeholder="Equipo" required="required">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="StartDate" class="control-label">Inicio</label> &nbsp;&nbsp;<select name="StartDate" id="StartDate" class="form-control" required="required"><option value="">Seleccione</option><?php for ($i=1950; $i<=2015; $i++) {echo "<option value=$i>$i</option>";}?></select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="EndDate" class="control-label">Final</label>&nbsp;&nbsp;<select name="EndDate" id="EndDate" class="form-control" required="required"><option value="">Seleccione</option><?php for ($i=1950; $i<=2015; $i++) {echo "<option value=$i>$i</option>";}?></select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="AgregarCampos();">Agregar Otro...</a>';
+campo = '<br>&nbsp;&nbsp;<label for="TeamName'+ TeamName +'" class="control-label">Nombre del equipo dirigido</label>&nbsp;&nbsp;<input type="text" name="TeamName'+ TeamName +'" id="TeamName'+ TeamName +'" class="form-control" value="" placeholder="Equipo" required="required">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="StartDate'+ StartDate +'" class="control-label">Inicio</label> &nbsp;&nbsp;<select name="StartDate'+ StartDate +'" id="StartDate'+ StartDate +'" class="form-control" required="required"><option value="">Seleccione&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option><?php for ($i=1950; $i<=2015; $i++) {echo "<option value=$i>$i</option>";}?></select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="EndDate'+ EndDate +'" class="control-label">Final</label>&nbsp;&nbsp;<select name="EndDate'+ EndDate +'" id="EndDate'+ EndDate +'" class="form-control" required="required"><option value="">Seleccione&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option><?php for ($i=1950; $i<=2015; $i++) {echo "<option value=$i>$i</option>";}?></select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" onclick="AgregarCampos();">Agregar Otro...</a><br>';
 $("#campos").append(campo);
 }
 </script> 
