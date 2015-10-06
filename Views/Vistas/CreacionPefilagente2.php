@@ -42,32 +42,33 @@
                 </div>
 
             <div class="jumbotron">
-                    <h3>Cuentanos donde has trabajado!</h3>
-                    <p>Para las personas es muy importante saber en donde has trabajado, ya que esto es un reflejo de la calidad de tu trabajo y experiencia</p>
+                    <h3>Cuentanos donde con quien has trabajado!</h3>
+                    <p>Para las personas es muy importante saber en donde has trabajado o con quien has ayudado a potenciar por lo cual te pediremos que nos cuentes un poco a cerca de estos casos </p>
             </div>
             
 
         <div class="panel-body"> 
                 <form action="CreacionPefilDT3.php" metod="POST" class="form-inline">
                     <div class="form-group">
-                    &nbsp;&nbsp;<label for="TeamName" class="control-label">Nombre del equipo dirigido</label>&nbsp;&nbsp;
-                    <input type="text" name="TeamName" id="TeamName" class="form-control" size="30" value="" placeholder="Equipo" required="required">&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;<label for="TeamName" class="control-label">Nombre del Jugador</label>&nbsp;&nbsp;
+                        <input type="text" name="TeamName" id="TeamName" class="form-control" size="30" value="" placeholder="Nombre" required="required">&nbsp;&nbsp;&nbsp;&nbsp;
 
-                    <label for="StartDate" class="control-label">Inicio</label> &nbsp;
+                        <label for="StartDate" class="control-label">Inicio de patrocinio</label> &nbsp;
                     <select name="StartDate" id="StartDate" class="form-control" required="required">
                     <option value="">Seleccione&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </option><?php for ($i=1950; $i<=2015; $i++)
-                     {echo "<option value='$i'>$i</option>";}?>
-                     </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                     <label for="EndDate" class="control-label">Final</label>&nbsp;
-                     <select name="EndDate" id="EndDate" class="form-control" required="required">
-                     <option value="">Seleccione&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
-                     <?php for ($i=1950; $i<=2015; $i++)
-                      {echo "<option value='$i'>$i</option>";}?>
-                      </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    {echo "<option value='$i'>$i</option>";}?>
+                    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="EndDate" class="control-label">Final patrocinio</label>&nbsp;
+                    <select name="EndDate" id="EndDate" class="form-control" required="required">
+                    <option value="">Seleccione&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                    <?php for ($i=1950; $i<=2015; $i++)
+                    {echo "<option value='$i'>$i</option>";}?>
+                    </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                       <a href="#" onclick="AgregarCampos();">Agregar Otro...</a>
                       <div id="campos">
                       </div>
+                        <p class="text-info">*Si aun esta tienes una relacion vigente coloca el año actual</p>
                         <div class="form-group">  
                         <br>
                             <button type="submit" class="btn btn-block btn-soccer">Continuar</button>
